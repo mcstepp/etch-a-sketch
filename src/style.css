@@ -1,0 +1,20 @@
+	*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 572px;
+  height: 572px;
+  background-color: #757575;
+  border: 30px solid #800;
+  border-radius: 15px;
+}
+.grid .square {
+  width: 32px;
+  height: 32px;
+  float: left;
+  background-color: #222;
+}
+.grid .square.empty {
+  background-color: transparent;
+}
